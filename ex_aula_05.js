@@ -12,6 +12,11 @@ checkSignal(42)
 let duo2 = (data) => data * 2
 console.log('Arrow function: ' + duo2(5))
 
+let duo3 = (data) => {
+  return data * 2
+}
+console.log('Arrow function2: ' + duo3(5))
+
 function double(data) {
   return 2 * data
 }
