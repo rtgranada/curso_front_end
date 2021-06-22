@@ -17,6 +17,9 @@ let duo3 = (data) => {
 }
 console.log('Arrow function2: ' + duo3(5))
 
+let duo4 = ((data) => data * 2)(5)
+console.log('Arrow function3: ' + duo4)
+
 function double(data) {
   return 2 * data
 }
