@@ -1,1 +1,3 @@
-"# iniciando curso_front_end" 
+"# iniciando curso_front_end"
+
+"#Executar nodemon main.js"
