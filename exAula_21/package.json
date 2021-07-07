@@ -1,0 +1,15 @@
+{
+  "name": "Aula21",
+  "version": "1.0.0",
+  "description": "Exercicios da aula 21",
+  "main": "index.js",
+  "author": "Rodrigo Granada",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "date-fns": "^2.22.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
