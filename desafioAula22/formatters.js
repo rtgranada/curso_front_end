@@ -7,9 +7,9 @@ export function formated(value) {
     let order = pur.sort((a, b) =>
       new Date(a.data) - new Date(b.data) ? -1 : a.total - b.total
     )
-    order.forEach((ord) => {
+    order.forEach((ordened) => {
       console.log(
-        `Compra em ${ord.data} no total de R$ ${ord.total.toFixed(2)}`
+        `Compra em ${ordened.data} no total de R$ ${ordened.total.toFixed(2)}`
       )
     })
     soma(pur)

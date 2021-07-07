@@ -5,7 +5,7 @@ const dados = () =>
   new Promise((res, rej) => {
     setTimeout(() => {
       if (!data) {
-        rej('Não há dados')
+        rej('Não há dados para exibir')
       }
       res(data)
     }, 2000)
@@ -21,5 +21,3 @@ const exex = async () => {
 }
 
 exex()
-
-//ordenar por data e o total em compras
